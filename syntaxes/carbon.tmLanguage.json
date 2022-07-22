@@ -186,7 +186,7 @@
 				]
 			},
 			"structure_patterns": {
-				"match": "\\b(break|continue|do|else|for|goto|if|_Pragma|return|while|fn|next|let|in)\\b",
+				"match": "\\b(break|continue|do|else|for|goto|StringView|if|_Pragma|return|while|fn|next|let|in|then|Swap|Slice|match|abstract|extends|private|public|choice|case|impl|namespace|convert|interface|choice|external|forall|as|CommonTypeWith|Optional)\\b",
 				"name": "keyword.other.import.carbon"
 			},
 			"library_patterns": {
