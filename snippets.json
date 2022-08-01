@@ -6,17 +6,14 @@
             "   return $2;",
             "}"
 		],
-		"description": "Log output to console"
+		"description": "Carbon Function: A function is a block of code that can be called from other code. Functions can be used to create custom logic, to handle events, or to create reusable components."
 	},
     "Class": {
         "prefix": "class",
         "body": [
             "class ${1:name} {",
-            "   constructor() {",
-            "   }",
-            "   ${2:method}() {",
-            "   }",
-            "}"
+            "   var $2;",
+            "};"
         ],
         "description": "Log output to console"
     },
