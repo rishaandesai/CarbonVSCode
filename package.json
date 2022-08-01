@@ -14,7 +14,11 @@
             "id": "carbon",
             "aliases": ["Carbon", "carbon"],
             "extensions": [".carbon"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./language-configuration.json",
+            "icon": {
+                "light": "./carbon-logo.png",
+                "dark": "./carbon-logo.png"
+            }
         }],
         "grammars": [{
             "language": "carbon",
@@ -30,6 +34,6 @@
         "completions": [{
             "language": "carbon",
             "path": "./completions.json"
-        }], 
+        }]
     }
 }

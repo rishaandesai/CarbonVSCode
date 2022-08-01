@@ -15,7 +15,7 @@
             "   var $2;",
             "};"
         ],
-        "description": "Log output to console"
-    },
+        "description": "Carbon Class: A class is a block of code that can be used to create objects. Classes can be used to create reusable components or to serve as a prototype for other objects."
+    }
 
 }

@@ -1,5 +1,5 @@
-# VS Code Carbon README
+# Carbon Visual Studio Extension
 
-This is a extension to bring text highlighting and documentation to Visual Studio Code. 
+This is a extension to bring text highlighting and documentation for `Carbon` to Visual Studio Code. 
 
-VERY EARLY TESTING.
+NOTE: THIS EXTENSION IS IN VERY EARLY TESTING AND DEVELOPING
