@@ -20,6 +20,16 @@
             "language": "carbon",
             "scopeName": "source.carbon",
             "path": "./syntaxes/carbon.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "carbon",
+                "path": "./snippets.json"
+            }
+        ],
+        "completions": [{
+            "language": "carbon",
+            "path": "./completions.json"
+        }], 
     }
 }

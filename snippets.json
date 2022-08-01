@@ -1,0 +1,24 @@
+{
+	"Function": {
+		"prefix": "function",
+		"body": [
+			"fn ${1:name} {",
+            "   return $2;",
+            "}"
+		],
+		"description": "Log output to console"
+	},
+    "Class": {
+        "prefix": "class",
+        "body": [
+            "class ${1:name} {",
+            "   constructor() {",
+            "   }",
+            "   ${2:method}() {",
+            "   }",
+            "}"
+        ],
+        "description": "Log output to console"
+    },
+
+}
