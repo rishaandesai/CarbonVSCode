@@ -16,6 +16,34 @@
             "};"
         ],
         "description": "Carbon Class: A class is a block of code that can be used to create objects. Classes can be used to create reusable components or to serve as a prototype for other objects."
+    },
+    "If": {
+        "prefix": "if",
+        "body": [
+            "if (${1:condition}) {",
+            "   ${2:code}",
+            "}"
+        ],
+        "description": "Carbon If: An if statement is a block of code that is executed if a condition is true."
+    },
+    "Else": {
+        "prefix": "else",
+        "body": [
+            "else {",
+            "   ${1:code}",
+            "}"
+        ],
+        "description": "Carbon Else: An else statement is a block of code that is executed if a condition is false."
+    },
+    "IfElse": {
+        "prefix": "ifelse",
+        "body": [
+            "if (${1:condition}) {",
+            "   ${2:code}",
+            "} else {",
+            "   ${3:code}",
+            "}"
+        ],
+        "description": "Carbon If Else Statement"
     }
-
 }
