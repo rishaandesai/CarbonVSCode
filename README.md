@@ -4,7 +4,9 @@ This is a extension to bring text highlighting and documentation* for `.carbon` 
 
 ## How to set up (WIP)
 
+```
 Download the repository.
 Navigate to your .vscode folder on your system.
 Navigate to the extentions folder.
 Extract the downloaded repository to the extentions folder.
+```
