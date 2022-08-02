@@ -2,7 +2,7 @@
 
 This is a extension to bring text highlighting and documentation* for `.carbon` files in Visual Studio Code.
 
-## HOW TO INSTALL
+## How to set up (WIP)
 
 Download the repository.
 Navigate to your .vscode folder on your system.
