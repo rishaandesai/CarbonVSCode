@@ -16,4 +16,4 @@ Use the Install 'code' command in the PATH command above the "Uninstall 'code' c
 ## VSCE
 ```node
 $ npm install -g vsce
-``` 
+```
