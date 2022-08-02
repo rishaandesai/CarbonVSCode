@@ -218,7 +218,7 @@
 				"name": "punctuation.separator.delimiter.carbon"
 			},
 			"unfinishedPattern1": {
-				"match": "class|api|var|f16|f32|f64|f128|BFloat16|String|StringView|i8|i16|i32|i64|i128|i256|u8|u16|u32|u64|u128|u256|Carbon",
+				"match": "class|Cpp|api|var|f16|f32|f64|f128|BFloat16|String|StringView|i8|i16|i32|i64|i128|i256|u8|u16|u32|u64|u128|u256|Carbon",
 				"name": "keyword.other.import.carbon"
 			},
 			"booleans": {
