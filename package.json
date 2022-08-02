@@ -1,8 +1,9 @@
 {
     "name": "carbon",
     "displayName": "Carbon",
-    "description": "Carbon Programming Language",
+    "description": "This is the official Carbon extension for Visual Studio Code.",
     "version": "0.0.1",
+    "icon": "carbon-logo.png",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -10,26 +11,45 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "carbon",
-            "aliases": ["Carbon", "carbon"],
-            "extensions": [".carbon"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "carbon",
-            "scopeName": "source.carbon",
-            "path": "./syntaxes/carbon.tmLanguage.json"
-        }],
+        "languages": [
+            {
+                "id": "carbon",
+                "aliases": [
+                    "Carbon",
+                    "carbon"
+                ],
+                "extensions": [
+                    ".carbon"
+                ],
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "light": "./carbon-logo.png",
+                    "dark": "./carbon-logo.png"
+                }
+            }
+        ],
+        "grammars": [
+            {
+                "language": "carbon",
+                "scopeName": "source.carbon",
+                "path": "./syntaxes/carbon.tmLanguage.json"
+            }
+        ],
         "snippets": [
             {
                 "language": "carbon",
                 "path": "./snippets.json"
+            },
+            {
+                "language": "carbon",
+                "path": "./completions.json"
             }
-        ],
-        "completions": [{
-            "language": "carbon",
-            "path": "./completions.json"
-        }], 
-    }
+        ]
+    },
+    "dependencies": {
+        "vscode-languageclient": "^8.0.2"
+    },
+    "files.associations": {
+		"*.carbon": "carbon"
+	}
 }
