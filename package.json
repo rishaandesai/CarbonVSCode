@@ -7,6 +7,10 @@
     "engines": {
         "vscode": "^1.69.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Blackhole1123/Carbon-VSCode-Extension"
+    },
     "categories": [
         "Programming Languages"
     ],
