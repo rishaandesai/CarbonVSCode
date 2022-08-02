@@ -1,5 +1,10 @@
-# Carbon Visual Studio Extension
+# Carbon Programming Language Visual Studio Extension
 
-This is a extension to bring text highlighting and documentation for `Carbon` to Visual Studio Code. 
+This is a extension to bring text highlighting and documentation* for `.carbon` files in Visual Studio Code.
 
-NOTE: THIS EXTENSION IS IN VERY EARLY TESTING AND DEVELOPING
+## HOW TO INSTALL
+
+Download the repository.
+Navigate to your .vscode folder on your system.
+Navigate to the extentions folder.
+Extract the downloaded repository to the extentions folder.
