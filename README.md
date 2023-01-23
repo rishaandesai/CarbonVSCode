@@ -12,6 +12,9 @@ Navigate to your .vscode folder on your system.
 Navigate to the extentions folder.
 Extract the downloaded repository to the extentions folder.
 To install the extension, run the following command in the terminal:
+```
+
+
 ```bash
 $ vsce package && code --install-extension carbon-0.0.1.vsix
 ```
